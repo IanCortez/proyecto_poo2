@@ -69,6 +69,12 @@ user::Grid::Grid() {
   }
 }
 
+user::Grid& user::Grid::operator=(const user::Grid& grid){
+  if(this == &grid) return *this;
+  casillas = grid.casillas;
+  nodos = grid.nodos;
+}
+
 std::vector<std::vector<user::Casilla*>>& user::Grid::get_casillas() {
   return this->casillas;
 }

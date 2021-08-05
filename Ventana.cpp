@@ -62,6 +62,10 @@ void user::Ventana::start() {
       }
     }
 
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)){
+      grid = user::Grid();
+    }
+
     // Ejecutar el algoritmo de pathfinding
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::C)){
       solve_Astar();
@@ -77,9 +81,13 @@ void user::Ventana::start() {
 
         else if(grid.get_nodos()[j][i]->is_obstacle) grid.get_casillas()[j][i]->get_rectangle().setFillColor(sf::Color::Green);
 
-        else if(grid.get_nodos()[j][i]->is_visited) grid.get_casillas()[j][i]->get_rectangle().setFillColor(sf::Color::Black);
+        else if(grid.get_nodos()[j][i]->is_visited) {
+          if(grid.get_nodos()[j][i]->correct_route)
+            grid.get_casillas()[j][i]->get_rectangle().setFillColor(sf::Color::White);
+          else grid.get_casillas()[j][i]->get_rectangle().setFillColor(sf::Color::Black);
+        }
 
-        else if(!grid.get_nodos()[j][i]->is_visited) grid.get_casillas()[j][i]->get_rectangle().setFillColor(sf::Color::Cyan);
+        else grid.get_casillas()[j][i]->get_rectangle().setFillColor(sf::Color::Cyan);
       }
     }
 
@@ -106,9 +114,11 @@ void user::Ventana::solve_Astar() {
 
   // Distancia mediante el teorema de pitagoras
   auto distance = [](Node* a, Node* b){
-    return sqrtf((a->x - b->x)*(a->x - b->x) + (a->y - b->y)*(a->y - b->y));
+    auto dx = abs(a->x - b->x);
+    auto dy = abs(a->y - b->y);
+    auto h = (dx + dy) + (sqrt(2)-2)*fmin(dx,dy);
+    return h;
   };
-
   // Distancia entre nodos, global siendo el valor total del recorrido
   auto heuristic = [distance](Node* a, Node* b){
     return distance(a, b);
@@ -141,7 +151,6 @@ void user::Ventana::solve_Astar() {
     if(nodesNotTestedList.empty()) break;
 
     nodo_actual = nodesNotTestedList.front();
-    grid.get_casillas()[nodo_actual->y][nodo_actual->x]->get_rectangle().setFillColor(sf::Color::Blue);
     nodo_actual->is_visited = true; // Solo visitar un nodo una vez
 
     for(auto& vecino: nodo_actual->adjacents){
@@ -157,4 +166,9 @@ void user::Ventana::solve_Astar() {
     }
   }
 
+  auto& p = nodo_final;
+  while(p->parent != nullptr){
+    p->correct_route = true;
+    p = p->parent;
+  }
 }

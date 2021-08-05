@@ -16,6 +16,7 @@ namespace user {
 
     public:
         Grid();
+        Grid& operator=(const user::Grid& grid);
         std::vector<std::vector<user::Casilla*>>& get_casillas();
         std::vector<std::vector<Node*>>& get_nodos();
         [[nodiscard]] float get_gridSize() const;

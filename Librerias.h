@@ -21,6 +21,7 @@ struct Node {
     bool is_objective = false;
     bool is_visited = false;
     bool is_obstacle = false;
+    bool correct_route = false;
     unsigned int node_id{};
 
     // Posicion en cuadricula
