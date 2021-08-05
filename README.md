@@ -36,7 +36,7 @@ Asimismo, se hace uso de un struct "Node" para un desarrollo más optimo y senci
 
 Debido a que el problema se basa en gran medida en la interacción con el usuario se trabaja dentro de un namespace user, esto también puede ayudar posteriormente en llevar una mejor organización en próximas mejoras del programa.
 
-<img src="https://github.com/utec-cs1103-2019-01/proyecto-battleship-estructurascontinuas/blob/master/Battleship.jpg">
+<img src="https://github.com/IanCortez/proyecto_poo2/blob/1dd0fef0c50f9c942b99c072e320ef01606309e8/UML.jpg">
 
 ## Equipo
 
