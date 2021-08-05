@@ -1,0 +1,3 @@
+"D:\Program Files (x86)\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ProyectoPOO_2.dir/objects.a
+D:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\ProyectoPOO_2.dir/objects.a @CMakeFiles\ProyectoPOO_2.dir\objects1.rsp
+D:\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ProyectoPOO_2.dir/objects.a -Wl,--no-whole-archive -o ProyectoPOO_2.exe -Wl,--out-implib,libProyectoPOO_2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ProyectoPOO_2.dir\linklibs.rsp
