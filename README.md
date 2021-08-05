@@ -32,4 +32,4 @@ Además de ellos, se desarrollaron dos algoritmos de validación recursivos, uno
 
 > Contribuyentes
 
-| <a target="_blank">**Ian**</a> | <a target="_blank">**Mauro**</a> | <a target="_blank">**Daniela Cauti**</a> |<a target="_blank">**Nincol**</a> |
+| <a target="_blank">**Ian**</a> | <a target="_blank">**Mauro**</a> | <a target="_blank">**Nincol Quiroz**</a> |
