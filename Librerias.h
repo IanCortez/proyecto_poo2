@@ -27,7 +27,8 @@ struct Node {
     int x{};
     int y{};
 
-    //
+    // Pesos (distancias) a nivel local (distancia recorrida hasta el momento) y global (menor distancia recorrida
+    // hasta el momento)
     float global_goal{};
     float local_goal{};
 

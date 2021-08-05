@@ -5,7 +5,7 @@
 namespace user {
     class Casilla {
     private:
-        sf::RectangleShape rectangle;
+        sf::RectangleShape rectangle; // rectangulo para dibujar la casilla
 
     public:
         Casilla() = default;

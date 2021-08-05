@@ -10,7 +10,6 @@ void user::Ventana::start() {
   sf::Vector2i mousePosWindow;
   sf::Vector2i mousePosGrid;
 
-
   while(window.isOpen()){
     sf::Event event{};
 
@@ -115,7 +114,6 @@ void user::Ventana::solve_Astar() {
     return distance(a, b);
   };
 
-  // Posible error empieza aqui
   Node* nodo_inicio = nullptr;
   Node* nodo_final = nullptr;
   for(auto& fila: grid.get_nodos()){
@@ -159,6 +157,4 @@ void user::Ventana::solve_Astar() {
     }
   }
 
-  if(nodo_actual == nodo_final) std::cout << "Hallado" << std::endl;
-  std::cout << "finished" << std::endl;
 }

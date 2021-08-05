@@ -3,6 +3,7 @@
 
 
 int main() {
+  // Empezar
   user::Ventana* ventana;
   ventana = new user::Ventana();
 
