@@ -7,13 +7,13 @@
 > Resumen del solucionador
 - Maze Solver se basa en una grid/matriz gráfica de casillas, donde cada una esta descrita por su posición, asimismo estas tienen una equivalencia a nodos. el grid se inicia totalmente vacío es decir libre de obstáculos y con un tamaño predeterminado. El usuario establece los obstáculos, el punto de partida y la meta. El objetivo del programa es hallar un camino entre el punto de partida y la meta. Se permite el movimiento en 8 direcciones (Como las de un Rey en un tablero de ajedrez).
 
-                                                                               N.W   N   N.E
-                                                                                 \   |   /
-                                                                                  \  |  /
-                                                                            w----Casilla/Node----E
-                                                                                    / | \
-                                                                                  /   |  \
-                                                                               S.W    S   S.E
+                                                               N.W   N   N.E
+                                                                \   |   /
+                                                                 \  |  /
+                                                        w----Casilla/Node----E
+                                                                 / | \
+                                                                /   |  \
+                                                             S.W    S   S.E
 
 > Resumen del programa
 - El programa se basa en el uso de la librería gráfica SFML, trabaja en base a la renderización de ventanas por lo cual al inicio se crea una grid de casillas rectangulares, todas pintadas de color verde. Mientras el usuario establece los obstáculos, el punto de inicio y el destino, esto a través de acciones con el ratón y el teclado, asimismo el programa lee la posición del mouse para poder pintar las casillas. Estas se van pintando de distintos colores para distinguir los cambios visualmente, internamente se basa en un cambio de atributos booleanos que señalan si una casilla esta (libre, es una obstrucción, sí es el inicio o el final). Una vez que el usuario haya terminado de armar el laberinto puede correr el solver (basado en el algoritmo de path finding A*). Se marcan todas las casillas visitadas con color negro, y el camino más corto encontrado por el solver se pinta de blanco.
