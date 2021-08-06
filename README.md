@@ -49,7 +49,7 @@ Debido a que el problema se basa en gran medida en la interacción con el usuari
 
 ## Bibliografia
 
--GeeksforGeeks(2021). A* Search Algorithm. Consultado en: https://www.geeksforgeeks.org/a-search-algorithm/
--ComputerPhile(2017). A* (A Star) Search Algorithm - Computerphile. Url: https://www.youtube.com/watch?v=ySN5Wnu88nE
--Sebastian Lague(2014). A* Pathfinding (E01: algorithm explanation). Url: https://www.youtube.com/watch?v=-L-WgKMFuhE
+GeeksforGeeks(2021). A* Search Algorithm. Consultado en: https://www.geeksforgeeks.org/a-search-algorithm/
+ComputerPhile(2017). A* (A Star) Search Algorithm - Computerphile. Url: https://www.youtube.com/watch?v=ySN5Wnu88nE
+Sebastian Lague(2014). A* Pathfinding (E01: algorithm explanation). Url: https://www.youtube.com/watch?v=-L-WgKMFuhE
 
