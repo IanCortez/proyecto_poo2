@@ -20,7 +20,7 @@
 
 > Video explicatorio
 
-link:
+link: https://www.youtube.com/watch?v=hzROYodEYvs
 
 > Indicaciones
 - Para esta versión del proyecto se seguirán las siguientes indicaciones para su ejecución:
