@@ -2,6 +2,11 @@
 <img width="460" height="300" src="https://jesuitasaru.org/wp-content/uploads/2020/08/laberinto-6-1561965744-1030x633.jpg">
 </p>
 
+# Integrantes:
+-Mauro Bobadilla
+-Ian Cortez
+-Nincol Quiroz
+
 # Maze Solver
 
 > Resumen del solucionador
