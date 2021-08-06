@@ -2,11 +2,6 @@
 <img width="460" height="300" src="https://jesuitasaru.org/wp-content/uploads/2020/08/laberinto-6-1561965744-1030x633.jpg">
 </p>
 
-# Integrantes:
--Mauro Bobadilla
--Ian Cortez
--Nincol Quiroz
-
 # Maze Solver
 
 > Resumen del solucionador
@@ -51,4 +46,10 @@ Debido a que el problema se basa en gran medida en la interacción con el usuari
 | :---: | :---:| :---:|
 | ![Ian](https://avatars.githubusercontent.com/u/85956402?v=4) | ![Mauro](https://avatars.githubusercontent.com/u/83092867?v=4) | ![Nincol](https://avatars.githubusercontent.com/u/57011274?v=4) |
 | <a href="https://github.com/IanCortez" target="_blank">`github.com/IanCortez`</a> | <a href="https://github.com/MauBC" target="_blank">`github.com/MauBC`</a> | <a href="https://github.com/dipolo12q" target="_blank">`github.com/dipolo12q`</a> |
+
+## Bibliografia
+
+-GeeksforGeeks(2021). A* Search Algorithm. Consultado en: https://www.geeksforgeeks.org/a-search-algorithm/
+-ComputerPhile(2017). A* (A Star) Search Algorithm - Computerphile. Url: https://www.youtube.com/watch?v=ySN5Wnu88nE
+-Sebastian Lague(2014). A* Pathfinding (E01: algorithm explanation). Url: https://www.youtube.com/watch?v=-L-WgKMFuhE
 
