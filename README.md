@@ -43,3 +43,7 @@ Debido a que el problema se basa en gran medida en la interacción con el usuari
 > Contribuyentes
 
 | <a target="_blank">**Ian Cortez**</a> | <a target="_blank">**Mauro Bobadilla**</a> | <a target="_blank">**Nincol Quiroz**</a> |
+| :---: | :---:| :---:|
+| ![Ian](https://avatars.githubusercontent.com/u/85956402?v=4) | ![Mauro]https://avatars.githubusercontent.com/u/83092867?v=4) | ![Nincol](https://avatars.githubusercontent.com/u/57011274?v=4) |
+| <a href="https://github.com/IanCortez" target="_blank">`github.com/IanCortez`</a> | <a href="https://github.com/MauBC" target="_blank">`github.com/MauBC`</a> | <a href="https://github.com/dipolo12q" target="_blank">`github.com/dipolo12q`</a> |
+
