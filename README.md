@@ -42,4 +42,4 @@ Debido a que el problema se basa en gran medida en la interacción con el usuari
 
 > Contribuyentes
 
-| <a target="_blank">**Ian**</a> | <a target="_blank">**Mauro**</a> | <a target="_blank">**Nincol Quiroz**</a> |
+| <a target="_blank">**Ian Cortez**</a> | <a target="_blank">**Mauro Bobadilla**</a> | <a target="_blank">**Nincol Quiroz**</a> |
